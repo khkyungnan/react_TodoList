@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
   //  todos 초기값을 빈 배열로 생성하겠다는 의미
   //todos 는 할 일 목록 들을 저장하는 공간
   const [todos, setTodos] = useState([]);
