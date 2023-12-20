@@ -6,7 +6,7 @@ function Header(){
         <header>
             <h1>My Website</h1>
             <nav>
-                <ul>
+                <ul> 
                     <li><Link to="/todo">할 일 목록</Link></li>
                 </ul>
                 <ul>
