@@ -1,8 +1,10 @@
 import React from "react";
+import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import TodoList from './component/TodoList';
 import Header from "./component/Header";
 import Footer from "./component/Footer";
+import Home from "./component/Home";
 function App (){
     return (
         <Router>
@@ -20,7 +22,8 @@ function App (){
                 </nav>
                 <hr />
                 <Routes>
-
+                    <Route path="/" element={<Home/>} />
+                
                     <Route path="/todo" element={<TodoList/>} />
                 </Routes>
                 <Footer />
